@@ -1,0 +1,76 @@
+* {
+    background-color: gainsboro;
+}
+
+.checkList {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border: solid 1px cornflowerblue;
+    -webkit-box-shadow:0px 1px 1px grey;
+    -moz-box-shadow:0px 1px 1px grey;
+    box-shadow:0px 5px 20px grey;
+
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 16px 12px 16px;
+    background-color: white;
+
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+    color:rosybrown;
+    text-transform: uppercase;
+}
+
+.addInput {
+    margin-left: 40px;
+    background-color: white;
+
+}
+
+ul {
+    text-align: left;
+    background-color: white;
+
+}
+
+li {
+    position: relative;
+    background-color: white;
+    list-style-type: none;
+    border-bottom: solid black 1px;
+}
+
+
+
+span {
+    margin-left: 20px;
+    background-color: white;
+}
+
+button {
+    background-color: rosybrown;
+    font-size: medium;
+    border-radius: 10%;
+}
+
+input {
+    background-color: white;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.notDone {
+    text-decoration: none;
+}
